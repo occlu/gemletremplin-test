@@ -7,6 +7,7 @@
     <title>GEM Le Tremplin | Concert Pierre Sicaud chante Aznavour</title>
     <link rel="alternate" type="application/rss+xml" title="Blog to GEM Le Tremplin" href="/post/feed.xml" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.4/photoswipe.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700;800&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
@@ -30,6 +31,11 @@
         
         <a class="item" href="/post/">
             <i class="book alternate icon"></i> Blog
+        </a>
+        
+        
+        <a class="item" href="/photo/">
+            <i class="calendar alternate icon"></i> Photos
         </a>
         
     </div>
@@ -103,6 +109,16 @@
         src="https://code.jquery.com/jquery-3.6.1.slim.min.js"
         integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA="
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.4/umd/photoswipe.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.4/umd/photoswipe-lightbox.umd.min.js"></script>
+    <script type="module">
+        const lightbox = new PhotoSwipeLightbox({
+            gallery: '.pswp-gallery',
+            children: 'a',
+            pswpModule: PhotoSwipe,
+        });
+        lightbox.init();
+    </script>
     
 </body>
 </html>
