@@ -71,12 +71,10 @@ artistique. Association révélée par le film « &lt;a href=&quot;https://www.
 &lt;li&gt;« &lt;a href=&quot;https://gemletremplin.fr/&quot;&gt;GEM le Tremplin&lt;/a&gt; » qui vient en soutien aux autistes adultes&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Ce spectacle aura lieu à 20H45, le Mardi 29 Novembre 2022 au &lt;a href=&quot;https://www.google.com/maps?ll=44.854578,0.48209&amp;amp;z=15&amp;amp;t=h&amp;amp;hl=fr-FR&amp;amp;gl=US&amp;amp;mapclient=embed&amp;amp;cid=4676411010596195896&quot;&gt;Centre Culturel Michel Manet, place Gambetta à Bergerac&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;ui segments&quot;&gt;
-    &lt;div class=&quot;ui center aligned segment&quot;&gt;
-        &lt;a class=&quot;ui big blue centered button&quot; href=&quot;https://www.helloasso.com/associations/club-inner-wheel-bergerac/evenements/concert-interclubs&quot; target=&quot;_blank&quot;&gt;Réservations sur helloasso&lt;/a&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;ui center aligned secondary segment&quot;&gt;
-        Ou 06 81 34 99 08 ou sur place.
+&lt;div class=&quot;ui icon info message&quot;&gt;
+    &lt;i class=&quot;warning icon&quot;&gt;&lt;/i&gt;
+    &lt;div class=&quot;content&quot;&gt;
+        Cet évènement est terminé. Merci à tous les visiteurs pour votre générositée. Nous espérons que vous avez passé un agréable moment.
     &lt;/div&gt;
 &lt;/div&gt;
 </content>
